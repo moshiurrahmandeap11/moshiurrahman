@@ -246,6 +246,10 @@ nav .logo h2 {
 /* social icon end */
 
 
+.about{
+  margin-bottom: 70px;
+}
+
 .about-title{
   font-weight: 500;
   font-size: 20px;
@@ -340,3 +344,106 @@ nav .logo h2 {
 }
 
 /* tool box start */
+
+.toolbox{
+  width: 1280px;
+  height: 500px;
+  margin: 0 auto;
+}
+
+
+.toolbox-title{
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 39px;
+  color: rgb(30, 255, 30);
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.toolbox hr{
+  width: 15%;
+  margin: 0 auto;
+  height: 1px;
+  border: 1px solid rgb(30, 255, 30);
+}
+
+
+/* .common-img{
+  width: 200px;
+  height: 200px;
+  border-radius: 5px;
+} */
+
+.toolbox-container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 40px;
+  margin-left: 250px;
+  margin-right: 250px;
+}
+
+
+.hover-image{
+  position: relative;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  cursor: pointer;
+  margin-bottom: 25px;
+}
+
+
+
+.hover-image .common-img{
+  width: 90%;
+  height: 90%;
+  object-fit: cover;
+  border: 1px solid rgb(30, 255, 30);
+  border-radius: 50%;
+  transition: .5s;
+}
+
+.hover-image .common-img:hover{
+  border: 1px solid purple;
+}
+
+.hover-image h3{
+  position: absolute;
+  bottom: -30px;
+  left: 0;
+  width: 90%;
+  text-align: center;
+  color: rgb(30, 255, 30);
+  margin-bottom: 10.5px;
+  padding-bottom: 11px;
+  /* padding: 20px 0; */
+  font-size: 1.2rem;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.hover-image:hover .hover-text{
+  opacity: 1;
+}
+
+.textbox{
+  width: 600px;
+  height: 70px;
+  margin: 0 auto;
+  border: 1px solid purple;
+  transition: .5s;
+}
+
+.textbox:hover{
+  border: 1px solid rgb(30, 255, 30);
+}
+
+.textbox p{
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  color: rgb(30, 255, 30);
+  padding: 20px 35px;
+}

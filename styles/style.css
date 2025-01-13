@@ -434,11 +434,12 @@ nav .logo h2 {
   margin: 0 auto;
   border: 1px solid purple;
   transition: .5s;
+  border-radius: 10px;
 }
 
-.textbox:hover{
+/* .textbox:hover{
   border: 1px solid rgb(30, 255, 30);
-}
+} */
 
 .textbox p{
   font-weight: 500;
@@ -446,4 +447,74 @@ nav .logo h2 {
   line-height: 25px;
   color: rgb(30, 255, 30);
   padding: 20px 35px;
+}
+
+/* next learn */
+
+.next-learn{
+  text-align: center;
+  width: 1280px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.next-learn .hover-image{
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.next-learn .hover-image .common-img {
+  padding: 10px;
+}
+
+.next-learn-title{
+  margin-top: 20px;
+}
+
+.next-learn hr{
+  width: 30%;
+  height: 1px;
+  border: 1px solid rgb(30, 255, 30);
+}
+
+.next-text{
+  width: 700px;
+  height: 90px;
+  border: 1px solid purple;
+  margin: 0 auto;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.next-text p{
+  font-weight: 450;
+  font-size: 18px;
+  line-height: 25px;
+  color: rgb(30, 255, 30);
+  padding: 5px 0;
+}
+
+.frameworks-title{
+  margin-top: 20px;
+}
+
+.frameworks-hr{
+  width: 20%;
+  height: 1px;
+  border: 1px solid rgb(30, 255, 30);
+}
+
+.frameworks{
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 195px;
+  margin-right: 195px;
+  background: transparent;
+  margin-bottom: 20px;
+}
+
+.hover-image .node_js{
+  padding: 10px;
 }

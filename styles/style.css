@@ -85,6 +85,10 @@ nav ul li a:hover::after{
         flex-direction: column;
         gap: 5px;
     }
+
+    nav ul{
+        gap: 30px;
+    }
 }
 
 /* tablets */

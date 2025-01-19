@@ -700,3 +700,29 @@ nav ul li a:hover::after {
         transform: scale(1);
     }
 }
+
+/* tablets */
+
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    .skill_container{
+        flex-direction: column;
+        margin: 0;
+        gap: 10px;
+    }
+
+    .skill_text{
+        width: 100%;
+    }
+
+    .skill_title{
+        text-align: center;
+    }
+
+    .skill_heading{
+        text-align: center;
+    }
+
+    #skill_btn{
+        margin-left: 300px;
+    }
+}

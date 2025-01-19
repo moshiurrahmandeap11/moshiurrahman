@@ -382,7 +382,7 @@ nav ul li a:hover::after {
         width: 70%;
         font-weight: 600;
         font-size: 4.2rem;
-        margin-left: 70px;
+        margin-left: 40px;
         line-height: 6rem;
         margin-bottom: 10px;
     }
@@ -392,8 +392,9 @@ nav ul li a:hover::after {
         font-weight: 500;
         font-size: 2rem;
         line-height: 2.5rem;
+        color: #fff;
         margin-bottom: 20px;
-        margin-left: 70px;
+        margin-left: 40px;
     }
 
     .button_conatiner {
@@ -405,7 +406,7 @@ nav ul li a:hover::after {
 
     .hero_btn {
         padding: 1.3rem 3rem;
-        margin-left: 50px;
+        margin-left: 30px;
         background-color: transparent;
         border: 1px solid #0b3317;
         outline: none;

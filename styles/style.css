@@ -83,7 +83,7 @@ nav ul li a:hover::after{
 @media screen and (max-width: 576px) {
     nav{
         flex-direction: column;
-        gap: 10px;
+        gap: 5px;
     }
 }
 
@@ -91,6 +91,7 @@ nav ul li a:hover::after{
 
 @media screen and (min-width: 576px) and (max-width: 992px) {
     nav{
-        gap: 40px;
+        flex-direction: column;
+        gap: 20px;
     }
 }

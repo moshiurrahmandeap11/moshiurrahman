@@ -136,7 +136,7 @@ nav ul li a:hover::after {
 .hero_title {
     font-weight: 800;
     font-size: 6rem;
-    line-height: 2.5rem;
+    line-height: 7rem;
     color: #DF5756;
     margin-bottom: 1.3rem;
 
@@ -309,25 +309,27 @@ nav ul li a:hover::after {
     }
 
     .hero_title{
-        width: 100%;
+        width: 90%;
         font-weight: 600;
-        font-size: 2.8rem;
-        margin-left: 2px;
-        line-height: 1.5rem;
+        font-size: 2rem;
+        margin-left: 20px;
+        line-height: 3rem;
         margin-bottom: 20px;
     }
 
     .hero_description{
-        width: 100%;
+        width: 90%;
         font-weight: 500;
         font-size: 1rem;
         line-height: 2rem;
         margin-bottom: 20px;
-        margin-left: 5px;
+        margin-left: 20px;
     }
 
     .button_conatiner {
-        flex-direction: column;
+        flex-direction: row;
+        gap: 0;
+        margin-left: 0;
     }
     
 
@@ -341,5 +343,9 @@ nav ul li a:hover::after {
         cursor: pointer;
         font-size: 1.1rem;
         overflow: hidden;
+    }
+
+    .social{
+        display: none;
     }
 }

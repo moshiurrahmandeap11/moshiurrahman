@@ -31,6 +31,7 @@ header {
     margin-top: 20px;
     margin-bottom: 130px;
     background: linear-gradient(to right, #041308, #0b3317);
+    position: fixed;
 }
 
 nav {
@@ -95,6 +96,10 @@ nav ul li a:hover::after {
 
 /* mobile */
 @media screen and (max-width: 576px) {
+    header{
+        position: relative;
+    }
+
     nav {
         flex-direction: column;
         gap: 5px;
@@ -108,6 +113,9 @@ nav ul li a:hover::after {
 /* tablets */
 
 @media screen and (min-width: 576px) and (max-width: 992px) {
+    header{
+        position: relative;
+    }
     nav {
         flex-direction: column;
         gap: 20px;
@@ -121,6 +129,7 @@ nav ul li a:hover::after {
 .hero {
     width: 100%;
     height: auto;
+    margin-bottom: 150px;
 }
 
 .hero_container {
@@ -420,5 +429,102 @@ nav ul li a:hover::after {
 
     .social{
         display: none;
+    }
+}
+
+
+/* hero end */
+
+.services{
+    width: 100%;
+    height: auto;
+    margin-bottom: 150px;
+}
+
+.services_title{
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 2.2rem;
+    color: gray;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.services_heading{
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 4rem;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 4.1rem;
+}
+
+.services_container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+.service_card{
+    background: #0b3317;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    padding: 4.1rem;
+    border-radius: 20px;
+    position: relative;
+}
+
+
+.service_card img{
+    width: 100px;
+    height: 100px;
+    color: #fff;
+    margin-bottom: 2.5rem;
+    mix-blend-mode: multiply;
+    background-color: white;
+}
+
+.card_title{
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 3rem;
+    color: #fff;
+    margin-bottom: 2.5rem;
+}
+
+.card_details{
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: gray;
+    margin-bottom: 1rem;
+}
+
+.card_span{
+    margin-right: 1rem;
+}
+
+/* responsive for mobile and tablets */
+
+/* mobile */
+
+@media screen and (max-width: 576px) {
+    .services_container{
+        flex-direction: column;
+        gap: 20px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    .services_container{
+        flex-direction: row;
+        gap: 20px;
+        margin: 0 auto;
     }
 }

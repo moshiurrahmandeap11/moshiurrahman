@@ -14,7 +14,8 @@ body {
     font-family: "Poppins", serif;
     font-weight: 400;
     font-style: normal;
-    background: linear-gradient(to right, #041308, #0b3317);
+    /* background: linear-gradient(to right, #041308, #0b3317); */
+    background: black;
 }
 
 .space-mono-regular {
@@ -655,7 +656,7 @@ nav ul li a:hover::after {
         margin: 0;
     }
 
-    .skill_text{
+    .skill_text {
         width: 100%;
     }
 
@@ -679,7 +680,7 @@ nav ul li a:hover::after {
         margin-left: -70px;
     }
 
-    #skill_btn{
+    #skill_btn {
         text-align: center;
     }
 
@@ -696,6 +697,7 @@ nav ul li a:hover::after {
         cursor: pointer;
         transition: transform 0.1s ease-in-out;
     }
+
     .progress-container:hover {
         transform: scale(1);
     }
@@ -704,25 +706,171 @@ nav ul li a:hover::after {
 /* tablets */
 
 @media screen and (min-width: 576px) and (max-width: 992px) {
-    .skill_container{
+    .skill_container {
         flex-direction: column;
         margin: 0;
         gap: 10px;
     }
 
-    .skill_text{
+    .skill_text {
         width: 100%;
     }
 
-    .skill_title{
+    .skill_title {
         text-align: center;
     }
 
-    .skill_heading{
+    .skill_heading {
         text-align: center;
     }
 
-    #skill_btn{
+    #skill_btn {
         margin-left: 300px;
+    }
+}
+
+/* skills end */
+
+/* ratio */
+
+.ratio {
+    width: 100%;
+    height: auto;
+    margin-bottom: 150px;
+    padding-bottom: 90px;
+}
+
+.ratio_container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    margin-left: 170px;
+}
+
+.radio_card {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    height: 200px;
+    padding: 50px 60px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.radio_card:hover {
+    transform: scale(1.04);
+}
+
+.ration_img {
+    width: 100%;
+}
+
+.ration_img img {
+    width: 50px;
+    height: 50px;
+}
+
+.ratio_text {
+    margin-left: -130px;
+    margin-top: -20px;
+}
+
+.ratio_title {
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 3rem;
+    color: #fff;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.ratio_description {
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: gray;
+}
+
+/* responsive for mobile and tablets */
+
+/* mobile */
+@media screen and (max-width: 576px) {
+    .ratio_container {
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        margin-left: 10px;
+    }
+
+    .radio_card {
+        width: 80%;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 30px;
+        /* height: 400px; */
+        padding: 50px 60px;
+        transition: transform 0.3s ease-in-out;
+    }
+
+    .radio_card:hover {
+        transform: scale(1);
+    }
+
+
+    .ratio_text {
+        margin-left: 100px;
+        margin-top: -110px;
+    }
+
+    .ratio_title {
+        font-weight: 500;
+        font-size: 2rem;
+        line-height: 3rem;
+        color: #fff;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    .ratio_description {
+        width: 80vw;
+        margin-left: -90px;
+        font-weight: 600;
+        font-size: 1rem;
+        line-height: 1.5rem;
+        color: gray;
+        text-align: center;
+    }
+
+}
+
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    .ratio_container {
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        margin-left: 10px;
+    }
+
+    .radio_card {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 30px;
+        padding: 50px 60px;
+        transition: transform 0.3s ease-in-out;
+    }
+    .radio_card:hover {
+        transform: scale(1);
+    }
+
+    .ration_img{
+        text-align: center;
+        margin-left: -80px;
+    }
+
+    .ratio_text {
+        text-align: center;
+        margin-left: 100px;
+        margin-top: -110px;
     }
 }

@@ -949,6 +949,10 @@ nav ul li a:hover::after {
         margin-left: 10px;
     }
 
+    .awesome_card{
+        margin: 0 10px 10px 5px;
+    }
+
     .card_title_awesome{
         margin-left: 100px;
     }
